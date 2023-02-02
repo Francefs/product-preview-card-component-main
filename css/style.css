@@ -1,0 +1,97 @@
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cream);
+}
+
+.main {
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+}
+
+.main__image {
+  background-image: url("/images/image-product-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 225px;
+  border-radius: 10px 10px 0 0;
+}
+
+.main__container {
+  background-color: var(--white);
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+}
+
+.main__paragraph {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--dark-grayish-blue);
+}
+
+.main__title {
+  font-family: "Fraunces", serif;
+  line-height: 1;
+  margin: 15px 0 15px 0;
+}
+.main__paragraph--description {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.main__numbers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.main__number1 {
+  color: var(--dark-cyan);
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+}
+
+.main__number2 {
+  color: var(--dark-grayish-blue);
+  font-size: 13px;
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: var(--dark-cyan);
+  padding: 20px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.main__btn {
+    
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+
